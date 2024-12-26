@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Marksheet</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 style="text-align: center; color: black; text-decoration: underline;">"Students Marksheet:"</h1>
+    
+    <div class="container">
+        <label for="name">Students Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+    
+        <label for="math">Maths Marks:</label>
+        <input type="number" id="math" placeholder="Enter marks for Maths" required>
+    
+        <label for="english">English Marks:</label>
+        <input type="number" id="english" placeholder="Enter marks for English" required>
+    
+        <label for="science">Science Marks:</label>
+        <input type="number" id="science" placeholder="Enter marks for Science" required>
+
+        <label for="chemistry">Chemistry:</label>
+        <input type="number" id="chemistry" placeholder="Enter marks for chemistry" required>
+
+        <label for="physics">Physics:</label>
+        <input type="number" id="physics" placeholder="Enter marks for physics" required>
+        
+        <button onclick="generateMarksheet()">Generate Marksheet</button>
+    
+        <div class="result" id="result"></div>
+    </div>
+
+    
+
+</body>
+<script src="app.js"></script>
+</html>
